@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="header__title">My Web Portfolio</h1>
+      <nav class="header__navbar">
+        <a href="#experience" class="navbar__link">Experience</a>
+        <a href="#projects" class="navbar__link">Projects</a>
+        <a href="#skills" class="navbar__link">Skills</a>
+        <a href="#contact" class="navbar__link">Contacts</a>
+      </nav>
+    </header>
+
+    <section class="presentation__section">
+      <hgroup class="presentation__title-group">
+        <h1 class="presentation__greeting">Hello, I am Danilo</h1>
+        <h2 class="presentation__degree">Software Engineer</h2>
+      </hgroup>
+
+      <aside class="presentation__aside">
+        <p class="presentation__description">
+          <strong class="highlight__text">Fullstack software engineer</strong>,
+          focused on
+          <strong class="highlight__text"
+            >designing scalable architectures and clean code</strong
+          >, emphasizing software efficiency and maintainability. Like to
+          promote continuous learning and teamwork, as well as
+          <strong class="highlight__text">assertive communication</strong> to
+          coordinate efforts and
+          <strong class="highlight__text">achieve common goals.</strong>
+        </p>
+        <ul class="menu__social-media">
+          <li class="social-media__item">
+            <figure class="social-media__figure">
+              <img
+                src="./img/linkedin-icon__32px.png"
+                alt="linkedin-icon"
+                class="social-media__img"
+              />
+              <figcaption>Linkedin</figcaption>
+            </figure>
+          </li>
+          <li class="social-media__item">
+            <figure class="social-media__figure">
+              <img
+                src="https://github.com/favicon.ico"
+                alt="github-icon"
+                class="social-media__img"
+              />
+              <figcaption>Github</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="experience__section" id="experience">
+      <h1 class="experience__title">Experience</h1>
+
+      <ul class="experience__list">
+        <li class="experience__item">
+          <h2 class="experience__role">Full Stack Developer</h2>
+          <h3 class="experience__date">2025</h3>
+          <p class="experience__description">
+            Designed and implemented a secure end-to-end encrypted IoT system
+            for temperature & humidity monitoring with real-time alerts and
+            servo actuation, integrating an embedded device, message broker, API
+            and visualization dash.
+          </p>
+        </li>
+        <li class="experience__item">
+          <h2 class="experience__role">Full Stack Developer</h2>
+          <h3 class="experience__date">2025</h3>
+          <p class="experience__description">
+            Built a chat-style web application with conversational Q&A,
+            on-demand image generation, persistent conversation history, and
+            content-filtering, integrating with an API Gateway to access
+            external AI models.
+          </p>
+        </li>
+        <li class="experience__item">
+          <h2 class="experience__role">DevOps Engineer</h2>
+          <h3 class="experience__date">2025</h3>
+          <p class="experience__description">
+            A request was made to update the DevOps cycle of the Qatu
+            Marketplace system to adopt best practices from the automated
+            deployment cycle, using Terraform as a tool for provisioning
+            infrastructure as code.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="project-card">
+        <img src="" alt="" />
+        <h1></h1>
+        <p></p>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="tech-card">
+        <h1></h1>
+        <div>
+          <img src="" alt="" />
+          <p>dfv</p>
+        </div>
+      </div>
+    </section>
+
+    <form class="contact" id="contact">
+      <label for="name">fdv</label>
+      <label for="email"></label>
+      <label for="message"></label>
+      <input type="submit" />
+    </form>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
