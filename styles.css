@@ -198,11 +198,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10rem;
+    align-items: center;
+    gap: 5rem;
 }
 
 .tech-card{
     display: flex;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 20px 20px 20px 20px;
+    padding: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -220,7 +225,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;  
+    gap: 1rem;
+}
+
+.tech-item__figure {
+    padding: 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+.tech-item__figure:hover {
+    background-color: #B8DBD9;
+    color: #000000;
+    transform: translateY(-1rem);
+    transition: 0.5s;
 }
 
 .tech-item__img {
@@ -228,3 +246,75 @@ header {
     max-height: 16px;
 }
 
+/* Footer/Contact */
+
+footer {
+    width: 100%;
+    height: 600px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    margin-top: 1rem;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer__title {
+    color: var(--accent-color);
+}
+
+.contact__form, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact__form {
+    padding: 1rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+
+.contact__text-input {
+    padding: 1rem;
+    background: none;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--accent-color);
+    outline: none;
+
+}
+
+.contact__textarea {
+    width: 50rem;
+    height: 10rem;
+    color: var(--primary-color);
+    padding: 1rem;
+    background: none;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+    box-shadow: none;
+    font: inherit;
+    appearance: none;
+    font-family: 'Roboto Condensed';
+}
+
+.contact__submit-input {
+    background: none;
+    cursor: pointer;
+    color: var(--accent-color);
+    padding: 0.5rem;
+    width: 5rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+.contact__submit-input:hover {
+    background-color: #B8DBD9;
+    color: #000000;
+    transition: 0.5s;
+}

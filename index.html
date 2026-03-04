@@ -186,7 +186,7 @@
           <ul class="tech-card__list">
             <li class="tech-card__item">
               <figure class="tech-item__figure">
-                <img src="img/icons8-express-js-50.png" alt="" class="tech-item__img" />
+                <img src="img/icons8-express-js-30.png" alt="" class="tech-item__img" />
                 <figcaption class="tech-item__name">ExpressJs</figcaption>
               </figure>
             </li>
@@ -233,13 +233,19 @@
   </section>
 
   <footer>
-    <form class="contact" id="contact">
-      <label for="name">fdv</label>
-      <label for="email"></label>
-      <label for="message"></label>
-      <input type="submit" />
-    </form>
+    <h1 class="footer__title">Let's talk!</h1>
+    <form class="contact__form" id="contact">
 
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Type your name here..." class="contact__text-input">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Type your email here..." class="contact__text-input">
+
+      <label for="message">Message</label>
+      <textarea name="message" placeholder="Type your message here..." class="contact__textarea"></textarea>
+      <input type="submit" class="contact__submit-input" value="Send"/>
+    </form>
   </footer>
 
   <script src="./scripts.js"></script>
